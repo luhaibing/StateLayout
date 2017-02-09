@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateLayout">
+        <attr name="loading" format="reference"/>
+        <attr name="error" format="reference"/>
+        <attr name="empty" format="reference"/>
+        <attr name="state" format="enum">
+            <enum name="CONTENT" value="0"/>
+            <enum name="LOADING" value="1"/>
+            <enum name="ERROR" value="2"/>
+            <enum name="EMPTY" value="3"/>
+        </attr>
+        <attr name="use_anim" format="boolean"/>
+        <attr name="anim_type" format="enum">
+            <enum name="together" value="1"/>
+            <enum name="sequence" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
